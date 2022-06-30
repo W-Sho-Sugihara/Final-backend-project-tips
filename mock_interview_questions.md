@@ -219,9 +219,9 @@ LS189 Interview Assessment Mock Questions
 
 - Identify the three sublanguages of SQL, provide examples.
 
-  DDL: data definition language. CREATE, DROP, ALTER
-  DML: data manipulation language. INSERT, UPDATE, DELETE
-  DSL: data security language. GRANT, INVOKE
+  DDL: data definition language. (CREATE, DROP, ALTER)
+  DML: data manipulation language. (INSERT, UPDATE, DELETE)
+  DSL: data security language. (GRANT, INVOKE)
 
 - What is 'NULL' within SQL and how is it used and/or not used?
 
@@ -244,5 +244,3 @@ LS189 Interview Assessment Mock Questions
   Logical Level : A mid level design of a database including entities along with their attributes and the relations between the entities. This design is still database agnostic.
 
   Physical Level : A low level design of a database that includes tables, column info and the relationship between tables through foreign keys. A physical design is focused on implementation and is therefore specific to a database and is not agnostic.
-
--
