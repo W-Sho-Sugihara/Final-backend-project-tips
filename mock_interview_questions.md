@@ -48,7 +48,7 @@ LS189 Interview Assessment Mock Questions
 
   (F)
 
-- Give three examples of methods within Sinatra that define a route.
+- Give three method names within Sinatra that define a route.
 
   get, post, delete, put, options, patch, link, unlink
 
