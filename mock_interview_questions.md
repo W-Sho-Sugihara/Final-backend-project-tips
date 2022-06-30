@@ -34,7 +34,7 @@ LS189 Interview Assessment Mock Questions
 
 - How is an ERB layout used within an ERB invocation?
 
-- Within a Sinatra route, can the parameters within the params hash be extracted using either symbol keys or string keys?
+- Within a Sinatra route, can the values held within the `params` hash be extracted using either symbol keys or string keys?
 
 - If you had content that needed to be loaded before processing each route, which method(s) would you use implement this behaviour?
 

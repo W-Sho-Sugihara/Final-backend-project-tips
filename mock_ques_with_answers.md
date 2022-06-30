@@ -64,7 +64,7 @@ LS189 Interview Assessment Mock Questions
 
   `erb :index layout: :layout` or `erb :index`
 
-- Within a Sinatra route, can the parameters within the params hash be extracted using either symbol keys or string keys?
+- Within a Sinatra route, can the values held within the `params` hash be extracted using either symbol keys or string keys?
 
   Yes, params[:user_id], params["user_id"] both work.
 
