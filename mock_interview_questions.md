@@ -52,7 +52,7 @@ LS189 Interview Assessment Mock Questions
 
   get, post, delete, put, options, patch, link, unlink
 
-- Give an 2 example routes that would handle the path http://example.com/books/paperback/scifi?author=Andy+Weir.
+- Give an 2 example routes that would handle the path 'http://example.com/books/paperback/scifi?author=Andy+Weir'.
 
   "/books/paperback/scifi", "/books/:type/scifi", "/books/:type/:genre", etc
 
@@ -113,7 +113,9 @@ LS189 Interview Assessment Mock Questions
 
   The name of the data that a route displays or updates is part of the URL. It helps developers guess the URL that accomplishes a certain operation.
 
-- True or False: When a post request is executed, if the request is successful it redirects to a new route and if an error occurs then the current view is reloaded. (true)
+- True or False: In terms of best practice, when a post request is executed, if the request is successful it redirects to a new route and if an error occurs then the current view is reloaded.
+
+  (true)
 
 - Why is it a good idea to reload the current view rather than redirect after an error?
 
@@ -133,7 +135,7 @@ LS189 Interview Assessment Mock Questions
 
 - What method can Sinatra use to escape html? (not the automatic html escape setting by the erubis gem `set :erb, :html_escape => true`)
 
-  Rack::Utils.escape_html(text)
+  `Rack::Utils.escape_html(text)`
 
 - Your application has a form that the client uses to send a GET HTTP request. Where in the request will the form input values go?
 
