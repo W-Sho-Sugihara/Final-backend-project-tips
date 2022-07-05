@@ -8,37 +8,31 @@ LS189 Interview Assessment Mock Questions
 
 - What is Sinatra?
 
-- Is Sinatra a web server? If not what web server does it use?
-
 - What is Rack?
 
-- Rack's `rackup` file should end in what extention?
+- What is a Web Server? (eg. Apache, Nginx? aka: reverse proxy servers when used in conjunction with Puma, Thin, Unicorn)
 
-- What three values must be returned by the call method of a Rack application which describes the response sent to the client ?
+- What is an application server? (aka web application server, eg. Thin, Puma, WeBrick)
 
-- True or false:
+- What is a web application?
 
-  1, Routes are Ruby methods provided by Sinatra that typically use HTTP method names such as get, put, and delete.
+- What are static assets?
 
-  2, Routes use the method name and a pattern argument to determine the HTTP requests to which they respond.
-
-  3, Routes use a block of code to determine the response sent back to the client.
-
-  4, Routes must return a String that represents the body.
-
-- Give three method names within Sinatra that define a route.
-
-- Give an 2 example routes that would handle the path 'http://example.com/books/paperback/scifi?author=Andy+Weir'.
+- What is ERB?
 
 - What is an ERB layout?
 
 - How is an ERB layout used within an ERB invocation?
 
+- What three values must be returned by the call method of a Rack application which describes the response sent to the client ?
+
+- Give an 2 example routes that would handle the path http://example.com/books/paperback/scifi?author=Andy+Weir.
+
 - Within a Sinatra route, can the values held within the `params` hash be extracted using either symbol keys or string keys?
 
 - If you had content that needed to be loaded before processing each route, which method(s) would you use implement this behaviour?
 
-- When are view helpers used in Sinatra?
+- When and why are view helpers used in Sinatra?
 
 - Which route can be used to process routes that are not explicitly defined within the application?
 
@@ -46,23 +40,19 @@ LS189 Interview Assessment Mock Questions
 
 - What kind of request does the browser make for the new page when handling a redirection.
 
-- What three files do you need to run an application on Heroku?
-
-- What is the purpose of a Procfile?
-
 - What is the benefit of a multi-threaded web server?
+
+- What is the purpose of the `configure` method within Sinatra?
+
+- Which settings are typically set within the `configure` method and why?
 
 - How do you enable sessions in Sinatra?
 
 - What are resource-based routes and why are they useful?
 
-- True or False: In terms of best practice, when a post request is executed, if the request is successful it redirects to a new route and if an error occurs then the current view is reloaded.
-
 - Why is it a good idea to reload the current view rather than redirect after an error?
 
 - Why are params cleared and all instance variables reset after a redirect?
-
-- Why should we use view helpers?
 
 - Why is it important to escape user input within a web application?
 
@@ -80,15 +70,15 @@ LS189 Interview Assessment Mock Questions
 
 - Within a Sinatra application, you want to display a particular kind of file to the client. Which Sinatra helper method can you use to do this?
 
-- What is the Redcarpet gem's method `render` used for?
-
 - From within a route, which method call accesses the application environment settings?
 
 - List two ways to short-circuit a route in Sinatra.
 
-- Why don’t we get the same hashed value back after hashing a specific password more than once?
-
 - Why is it dangerous to allow raw filenames as request parameters?
+
+- What happends when a client sends a request to the server? (in a broader sense of client to web application)
+
+- How do we prevent erb templates from being escaped when we are globally escaping html within the `configure` method and using a layout?
 
 # From 180
 
@@ -100,7 +90,7 @@ LS189 Interview Assessment Mock Questions
 
 - What are some ways that we can optimize the way an application interacts with a database?
 
-- What do we mean by an n + 1 query?
+- What do we mean by an n + 1 query and why is it bad?
 
 - What is a relation within a database?
 
