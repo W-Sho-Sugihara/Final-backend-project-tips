@@ -1,6 +1,6 @@
 LS189 Interview Assessment Mock Questions
 
-# From 175
+# Mock Interview Questions
 
 - What is HTML?
 
@@ -80,13 +80,9 @@ LS189 Interview Assessment Mock Questions
 
 - How do we prevent erb templates from being escaped when we are globally escaping html within the `configure` method and using a layout?
 
-# From 180
-
 - What is a database?
 
 - What is a RDBMS (relational database management system)?
-
-# From 185
 
 - What are some ways that we can optimize the way an application interacts with a database?
 
