@@ -24,15 +24,29 @@ LS189 Interview Assessment Mock Questions
 
 - How is an ERB layout used within an ERB invocation?
 
-- What three values must be returned by the call method of a Rack application which describes the response sent to the client ?
+- What is AJAX?
+
+- What is XMLHttpRequest (XHR)?
+
+- What is escaping html? How do we incorporate it within our program? Why is it important?
+
+- What is Bcrypt and how does it work?
+
+- How does Bcrypt evaluate whether a password is valid or not?
+
+- What is sessions? How do you enable it? How do you use it?
+
+- What is a session secret? Why is it important and how do we set it?
+
+- What are view helpers and when and why are view helpers used in Sinatra?
+
+- What three values must be returned by the call method of a Rack application which describes the response sent to the client?
 
 - Give an 2 example routes that would handle the path http://example.com/books/paperback/scifi?author=Andy+Weir.
 
 - Within a Sinatra route, can the values held within the `params` hash be extracted using either symbol keys or string keys?
 
-- If you had content that needed to be loaded before processing each route, which method(s) would you use implement this behaviour?
-
-- When and why are view helpers used in Sinatra?
+- If you had content that needed to be loaded before processing each route, which method(s) would you use to implement this behavior?
 
 - Which route can be used to process routes that are not explicitly defined within the application?
 
@@ -43,10 +57,6 @@ LS189 Interview Assessment Mock Questions
 - What is the benefit of a multi-threaded web server?
 
 - What is the purpose of the `configure` method within Sinatra?
-
-- Which settings are typically set within the `configure` method and why?
-
-- How do you enable sessions in Sinatra?
 
 - What are resource-based routes and why are they useful?
 
@@ -64,9 +74,7 @@ LS189 Interview Assessment Mock Questions
 
 - Are there any significant security differences between GET and POST requests?
 
-- What is AJAX?
-
-- What is XMLHttpRequest (XHR)?
+- When should you use GET requests vs POST requests? why?
 
 - Within a Sinatra application, you want to display a particular kind of file to the client. Which Sinatra helper method can you use to do this?
 
@@ -76,7 +84,7 @@ LS189 Interview Assessment Mock Questions
 
 - Why is it dangerous to allow raw filenames as request parameters?
 
-- What happends when a client sends a request to the server? (in a broader sense of client to web application)
+- What happends when a client sends a request to the server? (in a broader sense of client -> web server -> app server -> web application then back to client)
 
 - How do we prevent erb templates from being escaped when we are globally escaping html within the `configure` method and using a layout?
 
@@ -120,6 +128,8 @@ LS189 Interview Assessment Mock Questions
 
 - How did you impliment persistence within your app? (eg. user staying logged in)
 
+- Did you use the configure method? What did you use it for and why?
+
 - In what ways did you use sessions?
 
 - What were some challenges you faced when querying data from the DB to be later displayed on your app?
@@ -140,15 +150,17 @@ LS189 Interview Assessment Mock Questions
 
 - How was your experience with validation? Did you find it difficut or easy dealing with all the needed validations for form inputs and URL requests? why or why not?
 
-- How was your experience with pagination? Was it difficult or easy? Why or why not? Would you do anything differently next time?
-
-- Did you choose to use `limit` and `offset` within your query for pagination? Why or why not? How did it go?
+- How did you implement pagination?
 
 - Did you have any difficulties deciding between when to reload current page vs when to redirect?
 
 - Why did you choose path `/xxx/aa/yyyy/:bbb` for this GET route?
 
 - Why did you choose path `/xxx/aa/yyyy/:bbb` for this POST route?
+
+- Will this path '/zzz/yy/bbb/aaaa' match this your '/zzz/zz/bbb/aaaa' path? Why or why not?
+
+- How did you go about validating user login? Explain all methods and paths needed for password validation.
 
 - Did you impliment encryption, AJAX or any other functionality not required within the project? How was your experience with them? Why did you choose to use them?
 

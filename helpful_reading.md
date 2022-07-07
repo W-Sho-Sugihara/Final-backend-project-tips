@@ -16,6 +16,8 @@
 
   https://stackoverflow.com/questions/4113299/ruby-on-rails-server-options/4113570#4113570
 
+  https://www.educative.io/answers/web-server-vs-application-server
+
 - Blog series on Rack
 
   https://launchschool.medium.com/growing-your-own-web-framework-with-rack-part-1-8c4c630c5faf
@@ -27,3 +29,21 @@
 - Web App vs Website
 
   https://www.scnsoft.com/blog/web-application-vs-website-finally-answered
+
+- Sinatra's configure method
+
+  http://sinatrarb.com/configuration.html
+
+  https://www.rubydoc.info/gems/sinatra/1.2.6#label-Configuration
+
+- XMLHTTPrequest
+
+  https://www.w3schools.com/xml/xml_http.asp
+  https://www.w3schools.com/xml/ajax_xmlhttprequest_create.asp
+  https://www.w3schools.com/xml/ajax_xmlhttprequest_send.asp
+  https://www.w3schools.com/xml/ajax_xmlhttprequest_response.asp
+
+- Session Secret
+
+  https://martinfowler.com/articles/session-secret.html
+  http://sinatrarb.com/intro.html#Using%20Sessions
