@@ -34,11 +34,23 @@ LS189 Interview Assessment Mock Questions
 
 - How does Bcrypt evaluate whether a password is valid or not?
 
-- What is sessions? How do you enable it? How do you use it?
+- What is a session? How do you enable it? How do you use it?
 
 - What is a session secret? Why is it important and how do we set it?
 
+- What is a cookie?
+
+- What is session persistence?
+
 - What are view helpers and when and why are view helpers used in Sinatra?
+
+- What are view variables? Why are they important and how are they used?
+
+- What is a Sinatra route?
+
+- What is SQL injection? How do we prevent it?
+
+- Explain how `exec_params` works.
 
 - What three values must be returned by the call method of a Rack application which describes the response sent to the client?
 
@@ -185,3 +197,7 @@ LS189 Interview Assessment Mock Questions
 - What part of the project was most frustrating or unenjoyable for you?
 
 - What part of the project was the most fun for you?
+
+- Understand which routes handle different types of requests and be able to
+  trace the flow of a given request into and out of your application. Be able
+  to explain what is happening every step of the way.

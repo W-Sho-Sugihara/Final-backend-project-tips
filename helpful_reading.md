@@ -43,7 +43,32 @@
   https://www.w3schools.com/xml/ajax_xmlhttprequest_send.asp
   https://www.w3schools.com/xml/ajax_xmlhttprequest_response.asp
 
+- Escaping HTML
+
+  https://stackoverflow.com/questions/14765766/when-i-need-to-escape-html-string
+
+- For understanding how the Bcrypt gem works (especially `==()`)
+
+  https://github.com/bcrypt-ruby/bcrypt-ruby/blob/4268ac86c45fa4b313a1bb1b878f0b8bc85e9d0c/lib/bcrypt/password.rb#L92
+
+- Bcrypt in general
+
+  https://dev.to/jyeett/what-is-bcrypt-and-why-2dd1
+
+- Sessions and session_secret
+
+  https://learn.co/lessons/sinatra-mechanics-of-sessions-readme
+
+  https://rubydoc.info/gems/sinatra#using-sessions
+
 - Session Secret
 
   https://martinfowler.com/articles/session-secret.html
+
   http://sinatrarb.com/intro.html#Using%20Sessions
+
+- Cookies, Sessions & Persistence
+
+  https://www.f5.com/services/resources/white-papers/cookies-sessions-and-persistence
+
+  https://avinetworks.com/glossary/session-persistence/
