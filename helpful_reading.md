@@ -72,3 +72,7 @@
   https://www.f5.com/services/resources/white-papers/cookies-sessions-and-persistence
 
   https://avinetworks.com/glossary/session-persistence/
+
+- Params
+
+  https://webapps-for-beginners.rubymonstas.org/sinatra/params.html

@@ -42,23 +42,27 @@ LS189 Interview Assessment Mock Questions
 
 - What is session persistence?
 
+- What is `params`? What does it store?
+
 - What are view helpers and when and why are view helpers used in Sinatra?
 
 - What are view variables? Why are they important and how are they used?
 
 - What is a Sinatra route?
 
+- What does a `:` within a route pattern mean? What is its functionality?
+
 - What is SQL injection? How do we prevent it?
 
-- Explain how `exec_params` works.
+- What is the `exec_params` method and how does it works?
+
+- Explain what is happening in the following code, `erb :home`.
 
 - What three values must be returned by the call method of a Rack application which describes the response sent to the client?
 
 - Give an 2 example routes that would handle the path http://example.com/books/paperback/scifi?author=Andy+Weir.
 
 - Within a Sinatra route, can the values held within the `params` hash be extracted using either symbol keys or string keys?
-
-- If you had content that needed to be loaded before processing each route, which method(s) would you use to implement this behavior?
 
 - Which route can be used to process routes that are not explicitly defined within the application?
 
