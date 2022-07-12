@@ -18,6 +18,8 @@ LS189 Interview Assessment Mock Questions
 
 - What are static assets?
 
+- What are dynamic assets?
+
 - What is ERB?
 
 - What is an ERB layout?
@@ -38,9 +40,9 @@ LS189 Interview Assessment Mock Questions
 
 - What is a session secret? Why is it important and how do we set it?
 
-- What is a cookie?
+- What is a cookie and why are they used?
 
-- What is session persistence?
+- What is persistence?
 
 - What is `params`? What does it store?
 
@@ -58,11 +60,9 @@ LS189 Interview Assessment Mock Questions
 
 - Explain what is happening in the following code, `erb :home`.
 
+- Explain what is happening in the following code, `redirect '/home'`.
+
 - What three values must be returned by the call method of a Rack application which describes the response sent to the client?
-
-- Give an 2 example routes that would handle the path http://example.com/books/paperback/scifi?author=Andy+Weir.
-
-- Within a Sinatra route, can the values held within the `params` hash be extracted using either symbol keys or string keys?
 
 - Which route can be used to process routes that are not explicitly defined within the application?
 
@@ -86,8 +86,6 @@ LS189 Interview Assessment Mock Questions
 
 - Your application has a form that the client uses to send a GET HTTP request. Where in the request will the form input values go?
 
-- Which protocol should we use to send encrypted requests and responses between the client and the server?
-
 - Are there any significant security differences between GET and POST requests?
 
 - When should you use GET requests vs POST requests? why?
@@ -100,33 +98,13 @@ LS189 Interview Assessment Mock Questions
 
 - Why is it dangerous to allow raw filenames as request parameters?
 
-- What happends when a client sends a request to the server? (in a broader sense of client -> web server -> app server -> web application then back to client)
+- What happends when a client sends a request to the server? (in a broad sense of client -> web server -> app server -> web application then back to client)
 
 - How do we prevent erb templates from being escaped when we are globally escaping html within the `configure` method and using a layout?
-
-- What is a database?
-
-- What is a RDBMS (relational database management system)?
 
 - What are some ways that we can optimize the way an application interacts with a database?
 
 - What do we mean by an n + 1 query and why is it bad?
-
-- What is a relation within a database?
-
-- What is a relationship within a database?
-
-- Define cardinality.
-
-- Define modality.
-
-- Identify the three sublanguages of SQL, provide examples.
-
-- What is 'NULL' within SQL and how is it used and/or not used?
-
-- Describe what primary, foreign, natural, and surrogate keys are.
-
-- What are the three levels of Schema and describe each.
 
 # Possible Project Question
 
@@ -203,5 +181,5 @@ LS189 Interview Assessment Mock Questions
 - What part of the project was the most fun for you?
 
 - Understand which routes handle different types of requests and be able to
-  trace the flow of a given request into and out of your application. Be able
+  trace the flow of a given request in and out of your application. Be able
   to explain what is happening every step of the way.

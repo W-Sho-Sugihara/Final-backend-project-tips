@@ -76,3 +76,7 @@
 - Params
 
   https://webapps-for-beginners.rubymonstas.org/sinatra/params.html
+
+- redirect
+
+  https://webapps-for-beginners.rubymonstas.org/storing_data/redirect.html
