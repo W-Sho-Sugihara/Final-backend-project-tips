@@ -62,6 +62,12 @@ LS189 Interview Assessment Mock Questions
 
 - Explain what is happening in the following code, `redirect '/home'`.
 
+- What is the `env` hash and why is it important?
+
+- What is the `call` method within Rack compliant applications and why is it important?
+
+- What is SQL?
+
 - What three values must be returned by the call method of a Rack application which describes the response sent to the client?
 
 - Which route can be used to process routes that are not explicitly defined within the application?
@@ -104,7 +110,7 @@ LS189 Interview Assessment Mock Questions
 
 - What are some ways that we can optimize the way an application interacts with a database?
 
-- What do we mean by an n + 1 query and why is it bad?
+- What do we mean by an n + 1 query and why is it bad? How do we avoid it?
 
 # Possible Project Question
 
